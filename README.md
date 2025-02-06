@@ -1,5 +1,8 @@
 # WeatherApi
 
+![Weather_App](https://github.com/user-attachments/assets/c6ef079c-a9ac-40e3-ba25-d2fb98b136d4)
+
+
 🌦️ WeatherApp – Aplicativo de Clima em C#
 Um aplicativo simples de console em C# que consome a API do OpenWeatherMap para exibir a previsão do tempo em tempo real.
 
