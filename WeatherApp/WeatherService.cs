@@ -6,7 +6,7 @@ using Newtonsoft.Json.Linq;
 public class WeatherService
 {
     private static readonly HttpClient client = new HttpClient();
-    private string apiKey = "e9279aaba245027a7389669746413696";
+    private string apiKey = ""YOUR_API_KEY";
 
     public async Task<string> GetWeatherAsync(string city)
     {
@@ -21,7 +21,7 @@ public class WeatherService
             string description = weatherData["weather"][0]["description"].ToString();
             string temp = weatherData["main"]["temp"].ToString();
 
-            return $"Current weather in {city}: {description}, {temp}°C";
+            return $"Current weather in {city}: {description}, {temp}Â°C";
         }
         catch (Exception e)
         {
