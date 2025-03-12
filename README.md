@@ -32,7 +32,7 @@ Newtonsoft.Json 📜
 📦 Como Instalar e Rodar
 1- Clone o repositório
 
-git clone https://github.com/JuanSilva085/WeatherApp.git                                                                                                                                     
+git clone [https://github.com/JuanSilva085/WeatherApi.git  ](https://github.com/JuanSilva085/WeatherApi)                                                                                                                                   
 cd WeatherApp
 
 2- Instale as dependências
